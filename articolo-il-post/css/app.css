@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+h2 {
+    margin: 20px 0;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.flex-icon {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon-background {
+    background-color: #2DA8C6;
+    color: white;
+    padding: 10px 0;
+}
+
+ .post {
+    max-width: 700px;
+    line-height: 28px;
+}
+
+.dark-mode {
+    background-color: #262626;
+    color: white;
+} 
+
+.container .img-hero {
+    max-width: 100%;
+    height: auto; 
+    display: block;
+    margin: 10px 0;
+}
+
+.pointer-element {
+    cursor: pointer; /* Imposta il cursore come pointer */
+  }
+
+  .page-footer {
+   margin: 30px 0; 
+  }
+
+  button {
+    background-color: #2DA8C6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+  }
+
+
+  .hidden {
+    display: none;
+}
+
+/* Stile per aumentare la dimensione del font per la classe "post" */
+.large-font {
+    font-size: 1.2em;
+    line-height: 32px;
+}
